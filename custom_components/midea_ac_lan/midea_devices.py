@@ -1511,9 +1511,9 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "state_class": SensorStateClass.MEASUREMENT,
                 "default": False,
             },
-            C3Attributes.water_flow: {
+            C3Attributes.water_flower: {
                 "type": Platform.SENSOR,
-                "translation_key": "water_flow",
+                "translation_key": "water_flower",
                 "name": "Water Flow Rate",
                 "icon": "mdi:water-flow",
                 "state_class": SensorStateClass.MEASUREMENT,
