@@ -22,7 +22,7 @@
           "account": "Account",
           "password": "Password"
         },
-        "description": "Login and storage your Midea account only for getting the appliance info.\nYou can remove this configuration after all appliance configured.",
+        "description": "Login and storage your Midea account only for getting the appliance info.\nYou can remove this configuration after all appliances configured.",
         "title": "Login"
       },
       "discovery": {
@@ -204,6 +204,15 @@
       "status_tbh": {
         "name": "TBH status"
       },
+      "status_cool": {
+        "name": "Cooling Status"
+      },
+      "eco_function_state": {
+        "name": "ECO Function"
+      },
+      "eco_timer_state": {
+        "name": "ECO Timer"
+      },
       "tank_ejected": {
         "name": "Tank Ejected"
       },
@@ -236,6 +245,9 @@
       },
       "zone2_room_temp_mode": {
         "name": "Zone2 Room-temperature Mode"
+      },
+      "zone2_water_temp_mode": {
+        "name": "Zone2 Water-temperature Mode"
       },
       "microcrystal_fresh": {
         "name": "Microcrystal Fresh"
@@ -584,6 +596,36 @@
       "total_produced_energy": {
         "name": "Total produced energy"
       },
+      "comp_run_freq": {
+        "name": "Compressor Frequency"
+      },
+      "fan_speed": {
+        "name": "Fan Speed"
+      },
+      "temp_t3": {
+        "name": "Outdoor Coil Temperature (T3)"
+      },
+      "temp_ta": {
+        "name": "Ambient Temperature (Ta)"
+      },
+      "pressure_high": {
+        "name": "High Pressure"
+      },
+      "pressure_low": {
+        "name": "Low Pressure"
+      },
+      "water_flower": {
+        "name": "Water Flow Rate"
+      },
+      "water_pressure": {
+        "name": "Water Pressure"
+      },
+      "heat_elec_total_consum0": {
+        "name": "Heat Pump Total Electric Consumption"
+      },
+      "heat_elec_total_capacity0": {
+        "name": "Heat Pump Total Thermal Energy"
+      },
       "tvoc": {
         "name": "TVOC"
       },
@@ -705,6 +747,9 @@
       },
       "heating_power": {
         "name": "Heating Power"
+      },
+      "holiday_on": {
+        "name": "Holiday Mode"
       },
       "indirect_wind": {
         "name": "Indirect Wind"
