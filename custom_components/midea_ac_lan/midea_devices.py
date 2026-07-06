@@ -16,6 +16,7 @@ from homeassistant.const import (
     UnitOfVolume,
     UnitOfFrequency,
     UnitOfPressure,
+    UnitOfVolumeFlowRate,
 )
 from midealocal.devices.a1 import DeviceAttributes as A1Attributes
 from midealocal.devices.ac import DeviceAttributes as ACAttributes
@@ -1504,7 +1505,7 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "name": "High Pressure",
                 "icon": "mdi:gauge-full",
                 "device_class": SensorDeviceClass.PRESSURE,
-                "unit": UnitOfPressure.KILO_PASCAL,
+                "unit": UnitOfPressure.KPA,
                 "state_class": SensorStateClass.MEASUREMENT,
                 "default": False,
             },
@@ -1514,7 +1515,7 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "name": "Low Pressure",
                 "icon": "mdi:gauge-low",
                 "device_class": SensorDeviceClass.PRESSURE,
-                "unit": UnitOfPressure.KILO_PASCAL,
+                "unit": UnitOfPressure.KPA,
                 "state_class": SensorStateClass.MEASUREMENT,
                 "default": False,
             },
@@ -1534,7 +1535,7 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "name": "Water Pressure",
                 "icon": "mdi:gauge",
                 "device_class": SensorDeviceClass.PRESSURE,
-                "unit": UnitOfPressure.KILO_PASCAL,
+                "unit": UnitOfPressure.KPA,
                 "state_class": SensorStateClass.MEASUREMENT,
                 "default": False,
             },
