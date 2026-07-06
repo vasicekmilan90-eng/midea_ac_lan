@@ -1533,7 +1533,7 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "name": "Water Pressure",
                 "icon": "mdi:gauge",
                 "device_class": SensorDeviceClass.PRESSURE,
-                "unit": UnitOfPressure.BAR,
+                "unit": UnitOfPressure.KILO_PASCAL,
                 "state_class": SensorStateClass.MEASUREMENT,
                 "default": False,
             },
