@@ -621,7 +621,7 @@
       "pressure_low": {
         "name": "Low Pressure"
       },
-      "water_flower": {
+      "water_flow": {
         "name": "Water Flow Rate"
       },
       "water_pressure": {
