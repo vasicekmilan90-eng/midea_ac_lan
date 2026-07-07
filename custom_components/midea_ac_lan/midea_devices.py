@@ -1478,7 +1478,7 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "name": "Fan Speed",
                 "icon": "mdi:fan",
                 "device_class": SensorDeviceClass.ENUM,
-                "options": ["20", "40", "60", "80", "100"],,
+                "options": ["20", "40", "60", "80", "100"],
                 "state_class": SensorStateClass.MEASUREMENT,
                 "default": False,
             },
