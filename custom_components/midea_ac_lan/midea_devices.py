@@ -1477,8 +1477,8 @@ MIDEA_DEVICES: dict[int, dict[str, dict[str, Any] | str]] = {
                 "translation_key": "fan_speed",
                 "name": "Fan Speed",
                 "icon": "mdi:fan",
-                "unit": "rpm",
-                "state_class": SensorStateClass.MEASUREMENT,
+                "device_class": SensorDeviceClass.ENUM,
+                "options": ["20", "40", "60", "80", "100"],
                 "default": False,
             },
             C3Attributes.temp_t3: {

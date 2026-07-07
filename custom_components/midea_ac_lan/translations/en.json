@@ -600,7 +600,14 @@
         "name": "Compressor Frequency"
       },
       "fan_speed": {
-        "name": "Fan Speed"
+        "name": "Fan Speed",
+        "state": {
+          "20": "Low",
+          "40": "Medium",
+          "60": "High",
+          "80": "Full Speed",
+          "100": "Auto"
+        }
       },
       "temp_t3": {
         "name": "Outdoor Coil Temperature (T3)"
